@@ -5,7 +5,7 @@ int main() {
   std::string name;
   std::cout << "Enter a package: ";
   std::cin >> name;
-  std::string command = "sudo apt install " + name;
+  std::string command = "sudo apt-get install " + name;
   system(command.c_str());
   return 0;
 }

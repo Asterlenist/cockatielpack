@@ -8,6 +8,6 @@ int main() {
     cout << R"(    _| |_\/_| |_  | |  | |    \ `.___]  |_______   )" << endl;
     cout << R"(   |_____||_____|[___][___]    `._____.'|_______|  )" << endl;
     cout << "" << endl;
-    cout << "            Version 0.1 | MIT License" << endl;
+    cout << "            Version 0.2 | MIT License" << endl;
     return 0;
 }

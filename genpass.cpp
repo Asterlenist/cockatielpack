@@ -4,14 +4,6 @@
 #include <string>
 using namespace std;
 
-cout << R"(   ______                          #####   #   ### ### )" << endl;
-cout << R"( .' ___  |                         #   #  # #  #   #   )" << endl;
-cout << R"(/ .'   \_|  .---.  _ .--.  ______  #   # #   # ### #   )" << endl;
-cout << R"(| |   ____ / /__\\[ `.-. ||______| ##### #####   # ### )" << endl;
-cout << R"(\ `.___]  || \__., | | | |         #     #   #   #   # )" << endl;
-cout << R"( `._____.'  '.__.'[___||__]        #     #   # ### ### )" << endl;
-cout << "" << endl;
-
 std::string generate_password(int length, bool use_upper, bool use_lower,
                               bool use_digits, bool use_special) {
   const std::string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

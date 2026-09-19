@@ -1,11 +1,19 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+using namespace std;
 int main() {
-  std::string name;
-  std::cout << "Enter a package: ";
-  std::cin >> name;
-  std::string command = "sudo apt-get install " + name;
+  cout << R"( ______                  __   ______  _____     _____  )" << endl;
+  cout << R"(|_   _ \                |  ].' ___  ||_   _|   |_   _| )" << endl;
+  cout << R"(  | |_) | __   _    .--.| |/ .'   \_|  | |       | |   )" << endl;
+  cout << R"(  |  __'.[  | | | / /'`\' || |         | |   _   | |   )" << endl;
+  cout << R"( _| |__) || \_/ |,| \__/  |\ `.___.'\ _| |__/ | _| |_  )" << endl;
+  cout << R"(|_______/ '.__.'_/ '.__.;__]`.____ .'|________||_____| )" << endl;
+  cout << "" << endl;
+  string name;
+  cout << "Enter a package: ";
+  cin >> name;
+  string command = "sudo apt-get install " + name;
   system(command.c_str());
   return 0;
 }
